@@ -1,0 +1,59 @@
+Agenda de Clase: 27/09/2016
+1. Resumen de práctica
+2. Proyectos
+3. Evaluación
+
+1. Resumen
+	Transacciones
+	
+	Begin Tran;
+	
+	Begin Try
+	
+		- Insert/Update Tabla 1
+		
+		- Insert/Update Tabla n
+	End Try
+	Catch Try
+		If RowCount> 0 Then
+			Raise "Error"
+		End if;	
+	End Catch
+	Commit;
+
+2. Proyectos
+	
+	2.1 Definición del Proyecto
+		- Documento de Visión
+		- Boceto de Idea/Esquema
+	2.2 Definir alcance
+	2.3 Plan de Proyectos
+		Fecha Inicio: 	27/09/2016
+		Fecha Fin: 		07/12/2016
+	2.4 Integrantes: 3 o menos
+	
+	Funcionalidad General
+	1. Gestión de usuario y perfiles
+	2. Controles de Menu
+	3. Página principal
+	4. Gestión de catálogos completa
+	5. Impresión en Catálogos y Operaciones
+	6. Operaciones 40%
+	7. Reportes de Operaciones Realizadas
+	8. Funcionalidad Especial
+		- Gráficos
+		- Dashboard
+		- Gestión de documentos
+	
+	
+
+3. Evaluación
+	- En una hoja de papel realizar lo siguiente:
+		1. Modelar en un DER los siguientes sistemas:
+		* Sistema de Pedidos
+		* Control Académico
+		* Sistema de Inventarios
+	Puntos que debe contener:
+		1. Visión del sistema
+		2. Modelo DER
+	
